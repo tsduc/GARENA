@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: 60px;
+}
+
+.header_menu {
+    width: 1240px;
+    padding: 14px 0;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    background: url(../images/logo@2x.c05a558a.png);
+    background-size: 100% 100%;
+    width: 108px;
+    height: 31px;
+    display: block;
+}
+
+.header_option {
+    float: right;
+    display: flex;
+}
+
+.header_option a {
+    text-decoration: none;
+    color: black;
+}
+
+.a_option {
+    flex: 0 0 auto;
+    margin: 0 54px 0 0;
+}
+
+/* slide show */
+.slide_show img {
+    height: 720px;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-position: 50% 0;
+}
+
+.circle {
+    border: 1px solid white !important;
+    width: 100px;
+}
+
+.carousel-control-prev {
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: 50%;
+    left: 17%;
+    background: rgba(2, 2, 2, .45);
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: black;
+}
+
+.carousel-control-next {
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: 50%;
+    right: 17%;
+    background: rgba(2, 2, 2, .45);
+}
+
+/* about us */
+.about_us {
+    background: #f8f9fa;
+    padding: 67px 0 100px;
+}
+
+.about_us_content {
+    width: 1240px;
+    margin: auto;
+}
+
+.about_us_content_top {
+    margin: auto;
+    margin-bottom: 42px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about_us_content_bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_us_content_bot .content {
+    background: url(../images/wdwd-item-bg@2x.ca044f88.png);
+    background-size: 100% 100%;
+    width: 389px;
+    height: 449px;
+    padding: 76px 40px 0;
+    box-sizing: border-box;
+    text-align: center;
+    display: grid;
+}
+
+.about_us_content_bot .content img {
+    background-size: 100% 100%;
+    margin: 0 auto 20px;
+    width: 179px;
+    height: 109px;
+}
+
+/* new games */
+.new_games {
+    width: 100%;
+    height: 580px;
+    color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    background: url(../images/game-carousel-bg-aov.a51b0750.jpg);
+}
+
+.new_games p {
+    width: 290px !important;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+/* communication game */
+.communication {
+    background: url(../images/platforms_bg.34b89957.jpg) 50% 0 no-repeat;
+}
+
+.content {
+    width: 1240px;
+    height: 1863px;
+    padding: 73px 0 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.content_communication {
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0 0 177px;
+}
