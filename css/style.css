@@ -179,10 +179,6 @@ body {
     width: 534px;
 }
 
-h1,
-h3 {
-    font-weight: 700px;
-}
 
 h3 {
     color: red;
@@ -268,6 +264,113 @@ h3 {
     background-size: cover;
 }
 
-.Career_Garena_right_child {
-    background: url(../images/career_txt@2x.fb85c9ae.png);
+.Career_Garena_right_child img {
+    position: relative;
+    left: 120px;
+    top: 90px;
+    width: 606px;
+    height: 296px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    display: flex;
+}
+
+.footer_content {
+    margin: auto;
+    width: 1240px;
+    padding: 63px 0 0;
+}
+
+.footer_content .top {
+    padding: 0 0 58px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+}
+
+.footer_content .top .top_left {
+    width: 552px;
+}
+
+.footer_content .top .top_left img {
+    height: 48px;
+    margin-bottom: 32px;
+}
+
+.footer_content .top .top_left p {
+    color: rgba(22, 24, 26, .5);
+    line-height: 2;
+    margin: 0;
+    width: 552px;
+}
+
+.footer_content .top .top_right {
+
+    color: rgba(22, 24, 26, .5);
+    line-height: 2;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top_right_l,
+.top_right_r {
+    width: 110px;
+}
+
+.top_right_l {
+    margin: 13px 0 0 160px;
+}
+
+.top_right_r {
+    margin: 13px 0 0 100px;
+}
+
+.top_right_l p,
+.top_right_r p {
+    margin: 0;
+    color: black;
+}
+
+.footer_content .bot {
+    align-items: center;
+    padding: 18px 0;
+    display: flex;
+}
+
+.rule_policy {
+    display: flex;
+    position: absolute;
+    right: 200px;
+    float: right;
+}
+
+.rule,
+.policy {
+    margin: 0 48px 0 0;
+}
+
+
+
+.button_top {
+    width: 64px;
+    height: 64px;
+    background: rgba(0, 0, 0, .25);
+    border-radius: 50%;
+    z-index: 1;
+    position: sticky;
+    bottom: 4%;
+    left: 90%;
+}
+
+.button_top img {
+    width: 60%;
+    margin: 12px;
 }
