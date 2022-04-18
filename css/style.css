@@ -256,6 +256,8 @@ h3 {
     margin-left: 330px;
     width: 557px;
     height: 500px;
+    position: relative;
+    top: 140px;
 }
 
 .Career_Garena_right {
